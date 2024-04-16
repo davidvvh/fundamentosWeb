@@ -61,11 +61,16 @@ section{
 }
 /* Estilo cuando pasa puntero sobre el boton */
 .btn:hover{
-    background-color: #0056b3;
+    background-color: #0056b3; /* Establece el color del fondo en el hover boton */
+}
+
+.destinos-container{
+}
+.destino{
+    width: calc(33.33% - 20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
 }
 footer{
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #333; /* Establece color de fondo de footer */
+    text-align: center; /* Establece color de texto de footer */
+    padding: 20px 0; /* Añade relleno superior e inferior */
 }
